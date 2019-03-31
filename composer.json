@@ -1,0 +1,26 @@
+{
+    "name": "ruchit-viitorcloud/first-package",
+    "description": "Create first package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ruchit Patel",
+            "email": "ruchit.patel@viitor.cloud"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "RuchitViitorCloud\\FirstPackage\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RuchitViitorCloud\\FirstPackage\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    }
+}
